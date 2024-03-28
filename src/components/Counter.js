@@ -10,13 +10,6 @@ class Counter extends Component {
     value: this.props.initialValue,
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: this.props.initialValue,
-    };
-  }
-
   handleIncrement = event => {
     console.log('Increment button was clicked!', event);
     console.log('this.props: ', this.props);
